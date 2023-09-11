@@ -116,6 +116,12 @@ body {
                     margin-bottom: 1.5em;
                 }
 
+                span:hover {
+                    svg {
+                        color: rgb(240, 98, 146);
+                    }
+                }
+
                 svg {
                     font-size: 1.2em;
                     cursor: pointer;
@@ -124,9 +130,6 @@ body {
 
                     transition: .5s;
 
-                    :hover {
-                        color: rgb(240, 98, 146);
-                    }
                 }
 
                 .done {

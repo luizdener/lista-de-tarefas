@@ -117,7 +117,9 @@ function App() {
               <span onClick={() => handleCheck(todo)}>
                 {!todo.done ? <BsBookmarkCheck/> : <BsBookmarkFill/>}
               </span>
-              <BsTrash onClick={() => handleDelete(todo.id)}/>
+              <span>
+                <BsTrash onClick={() => handleDelete(todo.id)}/>
+              </span>
             </div>
           </div>
         ))}
